@@ -1,0 +1,64 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Conda
+.conda/
+
+# HuggingFace & PyTorch Cache
+models--*
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+
+# LaTeX Build Artifacts
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.bbl
+paper/*.blg
+paper/*.synctex.gz
+paper/*.fdb_latexmk
+paper/*.fls
+*.aux
+*.log
+*.out
+
+# Large third-party reference PDFs
+paper/references/*.pdf
+references/*.pdf
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
